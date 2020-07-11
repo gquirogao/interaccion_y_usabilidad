@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <title>Interacción y usabilidad</title>
+    
+    <style>
+        .container {
+            width: 1000px;
+            height: 500px;
+            background: linear-gradient(to right, #80a1e8,#cc4774);
+            display: flex;
+            justify-content: center;
+        }
+
+        .button_container {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .button {
+            display: flex;
+            align-self: center;
+            width: 300px;
+            height: 100px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Roboto Mono', monospace;
+            font-size: 14pt;
+            background-color: darkslategrey;
+            color: white;
+            border: darkslategrey;
+        }
+
+        .button:hover {
+            color: white;
+            border: 1px solid white;
+            background-color: transparent;
+            cursor: pointer;
+            box-shadow: -5px 1px 10px black;
+            transition-duration: 1s;
+            transition-property: all;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="button_container">
+            <button class="button"><h5>Conocer más</h5></button>
+        </section>
+    </div>
+</body>
+</html>
